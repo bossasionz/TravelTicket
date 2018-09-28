@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101848CAA833C29A51448E86 /* Pods_Travel_Ticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1084CE9819156D0FE3239C61 /* Pods_Travel_Ticket.framework */; };
 		3F46A7CB2148E9C600C25C7B /* g.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F46A7CA2148E9C600C25C7B /* g.jpg */; };
 		3F46A7CD2148E9D100C25C7B /* r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F46A7CC2148E9D100C25C7B /* r.jpg */; };
 		3F6A665C21479DEE0012B598 /* listTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A665B21479DEE0012B598 /* listTable.swift */; };
@@ -17,9 +18,12 @@
 		3FCFD2E6214656AD0085DF78 /* Travel_Ticket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E4214656AD0085DF78 /* Travel_Ticket.xcdatamodeld */; };
 		3FCFD2E8214656AD0085DF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E7214656AD0085DF78 /* Assets.xcassets */; };
 		3FCFD2EB214656AD0085DF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E9214656AD0085DF78 /* LaunchScreen.storyboard */; };
+		C49468E2215E0D9B00381AEE /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = C49468E1215E0D9B00381AEE /* GoogleService-Info-2.plist */; };
+		C49468E4215E16FA00381AEE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49468E3215E16FA00381AEE /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1084CE9819156D0FE3239C61 /* Pods_Travel_Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F46A7CA2148E9C600C25C7B /* g.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = g.jpg; sourceTree = "<group>"; };
 		3F46A7CC2148E9D100C25C7B /* r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r.jpg; sourceTree = "<group>"; };
 		3F6A665B21479DEE0012B598 /* listTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = listTable.swift; path = ../listTable.swift; sourceTree = "<group>"; };
@@ -32,6 +36,10 @@
 		3FCFD2E7214656AD0085DF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCFD2EA214656AD0085DF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCFD2EC214656AD0085DF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2C59BAA98A7247823A1863 /* Pods-Travel Ticket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.release.xcconfig"; sourceTree = "<group>"; };
+		C49468E1215E0D9B00381AEE /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		C49468E3215E16FA00381AEE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ED2B52DE5D48208BAABB603A /* Pods-Travel Ticket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101848CAA833C29A51448E86 /* Pods_Travel_Ticket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3793E5366414B7C5D74F424B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1084CE9819156D0FE3239C61 /* Pods_Travel_Ticket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3FCFD2D1214656AD0085DF78 = {
 			isa = PBXGroup;
 			children = (
 				3FCFD2DC214656AD0085DF78 /* Travel Ticket */,
 				3FCFD2DB214656AD0085DF78 /* Products */,
+				94E8743220C7E65888C8C5DC /* Pods */,
+				3793E5366414B7C5D74F424B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,14 +88,25 @@
 				3FCFD2DF214656AD0085DF78 /* ViewController.swift */,
 				3FCFD2E1214656AD0085DF78 /* Main.storyboard */,
 				3F6A665D2147A11E0012B598 /* ViewControllerTableViewCell.swift */,
+				C49468E3215E16FA00381AEE /* SignUpViewController.swift */,
 				3FCFD2E7214656AD0085DF78 /* Assets.xcassets */,
 				3FCFD2E9214656AD0085DF78 /* LaunchScreen.storyboard */,
 				3FCFD2EC214656AD0085DF78 /* Info.plist */,
 				3FCFD2E4214656AD0085DF78 /* Travel_Ticket.xcdatamodeld */,
 				3F46A7CA2148E9C600C25C7B /* g.jpg */,
 				3F46A7CC2148E9D100C25C7B /* r.jpg */,
+				C49468E1215E0D9B00381AEE /* GoogleService-Info-2.plist */,
 			);
 			path = "Travel Ticket";
+			sourceTree = "<group>";
+		};
+		94E8743220C7E65888C8C5DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED2B52DE5D48208BAABB603A /* Pods-Travel Ticket.debug.xcconfig */,
+				AD2C59BAA98A7247823A1863 /* Pods-Travel Ticket.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FCFD2EF214656AD0085DF78 /* Build configuration list for PBXNativeTarget "Travel Ticket" */;
 			buildPhases = (
+				87E724C00B5248C551B01B6A /* [CP] Check Pods Manifest.lock */,
 				3FCFD2D6214656AD0085DF78 /* Sources */,
 				3FCFD2D7214656AD0085DF78 /* Frameworks */,
 				3FCFD2D8214656AD0085DF78 /* Resources */,
+				8D41A55FCB385D4AAD23CDDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +172,7 @@
 			files = (
 				3FCFD2EB214656AD0085DF78 /* LaunchScreen.storyboard in Resources */,
 				3FCFD2E8214656AD0085DF78 /* Assets.xcassets in Resources */,
+				C49468E2215E0D9B00381AEE /* GoogleService-Info-2.plist in Resources */,
 				3FCFD2E3214656AD0085DF78 /* Main.storyboard in Resources */,
 				3F46A7CB2148E9C600C25C7B /* g.jpg in Resources */,
 				3F46A7CD2148E9D100C25C7B /* r.jpg in Resources */,
@@ -148,11 +181,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		87E724C00B5248C551B01B6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travel Ticket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D41A55FCB385D4AAD23CDDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FCFD2D6214656AD0085DF78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49468E4215E16FA00381AEE /* SignUpViewController.swift in Sources */,
 				3F6A665C21479DEE0012B598 /* listTable.swift in Sources */,
 				3FCFD2E6214656AD0085DF78 /* Travel_Ticket.xcdatamodeld in Sources */,
 				3F6A665E2147A11E0012B598 /* ViewControllerTableViewCell.swift in Sources */,
@@ -280,24 +357,34 @@
 		};
 		3FCFD2F0214656AD0085DF78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2B52DE5D48208BAABB603A /* Pods-Travel Ticket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Travel Ticket/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tonyboss.Travel-Ticket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3FCFD2F1214656AD0085DF78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2C59BAA98A7247823A1863 /* Pods-Travel Ticket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Travel Ticket/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tonyboss.Travel-Ticket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

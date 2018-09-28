@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>946645217871-9lkg4v72it1p71o6aiqpal7ldt9ls4k5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.946645217871-9lkg4v72it1p71o6aiqpal7ldt9ls4k5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCEJ4lwr7o8xAuHKNskjIqkPbjplSRCkps</string>
+	<key>GCM_SENDER_ID</key>
+	<string>946645217871</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tonyboss.Travel-Ticket</string>
+	<key>PROJECT_ID</key>
+	<string>travelticket-75fcd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>travelticket-75fcd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:946645217871:ios:aaa9d488ce10278a</string>
+	<key>DATABASE_URL</key>
+	<string>https://travelticket-75fcd.firebaseio.com</string>
+</dict>
+</plist>
