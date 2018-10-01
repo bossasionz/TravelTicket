@@ -17,9 +17,9 @@
 		3FCFD2E6214656AD0085DF78 /* Travel_Ticket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E4214656AD0085DF78 /* Travel_Ticket.xcdatamodeld */; };
 		3FCFD2E8214656AD0085DF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E7214656AD0085DF78 /* Assets.xcassets */; };
 		3FCFD2EB214656AD0085DF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E9214656AD0085DF78 /* LaunchScreen.storyboard */; };
+		C456DF312161FBFC0006E7A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456DF302161FBFC0006E7A9 /* LoginViewController.swift */; };
 		C47D7820215F6A82003FAFA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C47D781F215F6A82003FAFA3 /* GoogleService-Info.plist */; };
 		C47D7822215F7635003FAFA3 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D7821215F7635003FAFA3 /* RoundedWhiteButton.swift */; };
-		C47D7826215F7731003FAFA3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D7825215F7731003FAFA3 /* SignUpViewController.swift */; };
 		C47D782A215F7B30003FAFA3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D7829215F7B2F003FAFA3 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +37,9 @@
 		3FCFD2EA214656AD0085DF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCFD2EC214656AD0085DF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD2C59BAA98A7247823A1863 /* Pods-Travel Ticket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.release.xcconfig"; sourceTree = "<group>"; };
+		C456DF302161FBFC0006E7A9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C47D781F215F6A82003FAFA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C47D7821215F7635003FAFA3 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
-		C47D7825215F7731003FAFA3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C47D7829215F7B2F003FAFA3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../../../.Trash/SignUpViewController.swift; sourceTree = "<group>"; };
 		ED2B52DE5D48208BAABB603A /* Pods-Travel Ticket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				C47D7829215F7B2F003FAFA3 /* SignUpViewController.swift */,
+				C456DF302161FBFC0006E7A9 /* LoginViewController.swift */,
 				3F6A665B21479DEE0012B598 /* listTable.swift */,
 				3FCFD2DD214656AD0085DF78 /* AppDelegate.swift */,
 				3FCFD2DF214656AD0085DF78 /* ViewController.swift */,
@@ -98,7 +99,6 @@
 				3F46A7CA2148E9C600C25C7B /* g.jpg */,
 				3F46A7CC2148E9D100C25C7B /* r.jpg */,
 				C47D781F215F6A82003FAFA3 /* GoogleService-Info.plist */,
-				C47D7825215F7731003FAFA3 /* SignUpViewController.swift */,
 			);
 			path = "Travel Ticket";
 			sourceTree = "<group>";
@@ -236,8 +236,8 @@
 			files = (
 				3F6A665C21479DEE0012B598 /* listTable.swift in Sources */,
 				C47D782A215F7B30003FAFA3 /* SignUpViewController.swift in Sources */,
-				C47D7826215F7731003FAFA3 /* SignUpViewController.swift in Sources */,
 				3FCFD2E6214656AD0085DF78 /* Travel_Ticket.xcdatamodeld in Sources */,
+				C456DF312161FBFC0006E7A9 /* LoginViewController.swift in Sources */,
 				3FCFD2E0214656AD0085DF78 /* ViewController.swift in Sources */,
 				3FCFD2DE214656AD0085DF78 /* AppDelegate.swift in Sources */,
 				C47D7822215F7635003FAFA3 /* RoundedWhiteButton.swift in Sources */,
