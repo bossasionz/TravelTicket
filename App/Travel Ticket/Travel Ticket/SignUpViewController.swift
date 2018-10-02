@@ -13,8 +13,8 @@ import FirebaseAuth
 class SignUpViewController: UIViewController {
 
     @IBOutlet weak var Email_Signup: UITextField!
-    @IBOutlet weak var Name_Signup: UITextField!
-    @IBOutlet weak var SurName_Signup: UITextField!
+ //   @IBOutlet weak var Name_Signup: UITextField!
+  //  @IBOutlet weak var SurName_Signup: UITextField!
     @IBOutlet weak var Password_Signup: UITextField!
     @IBOutlet weak var ConfirmPassword_Signup: UITextField!
     
@@ -27,14 +27,6 @@ class SignUpViewController: UIViewController {
     @IBAction func SignupBtn(_ sender: Any) {
         if Password_Signup.text != ConfirmPassword_Signup.text {
             let alertController = UIAlertController(title: "Password Incorrect", message: "Please re-type password", preferredStyle: .alert)
-            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-            
-            alertController.addAction(defaultAction)
-            self.present(alertController, animated: true, completion: nil)
-        }
-        
-        else if Name_Signup.text == nil || SurName_Signup.text == nil {
-            let alertController = UIAlertController(title: "Name is Blank", message: "Please type your Name", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             
             alertController.addAction(defaultAction)
