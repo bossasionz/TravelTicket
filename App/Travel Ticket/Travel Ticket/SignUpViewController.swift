@@ -33,6 +33,9 @@ class SignUpViewController: UIViewController {
             
             alertController.addAction(defaultAction)
             self.present(alertController, animated: true, completion: nil)
+            var alert = UIAlertController(title:"Registration successful",
+                                          message:"You may now login. Thank You!",
+                                          preferredStyle: UIAlertControllerStyle.alert)
         }
             
             
