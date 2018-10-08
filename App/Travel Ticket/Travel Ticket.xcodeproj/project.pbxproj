@@ -19,6 +19,7 @@
 		CCF0B6AB2167EF8E0068A50F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6AA2167EF8E0068A50F /* TestViewController.swift */; };
 		CCF0B6AF2167F1130068A50F /* TripPromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6AE2167F1130068A50F /* TripPromotionViewController.swift */; };
 		CCF0B6B121688BA60068A50F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6B021688BA60068A50F /* HomeViewController.swift */; };
+		CCF0B6B5216B40880068A50F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6B4216B40880068A50F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		CCF0B6AA2167EF8E0068A50F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		CCF0B6AE2167F1130068A50F /* TripPromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPromotionViewController.swift; sourceTree = "<group>"; };
 		CCF0B6B021688BA60068A50F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CCF0B6B4216B40880068A50F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ED2B52DE5D48208BAABB603A /* Pods-Travel Ticket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				3FCFD2DF214656AD0085DF78 /* ViewController.swift */,
 				C42D98192163459B00AD6047 /* SignUpViewController.swift */,
 				3FCFD2E1214656AD0085DF78 /* Main.storyboard */,
+				CCF0B6B4216B40880068A50F /* DetailViewController.swift */,
 				CCF0B6B021688BA60068A50F /* HomeViewController.swift */,
 				CCF0B6AE2167F1130068A50F /* TripPromotionViewController.swift */,
 				CCF0B6AA2167EF8E0068A50F /* TestViewController.swift */,
@@ -247,6 +250,7 @@
 				3FCFD2E0214656AD0085DF78 /* ViewController.swift in Sources */,
 				CCF0B6B121688BA60068A50F /* HomeViewController.swift in Sources */,
 				3FCFD2DE214656AD0085DF78 /* AppDelegate.swift in Sources */,
+				CCF0B6B5216B40880068A50F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
