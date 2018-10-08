@@ -704,10 +704,10 @@
             </objects>
             <point key="canvasLocation" x="1589.5999999999999" y="98.50074962518741"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Nmb-qW-DFY">
             <objects>
-                <viewController id="k5w-zU-jrI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailvc" id="k5w-zU-jrI" customClass="detailViewController" customModule="Travel_Ticket" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UvA-V6-Jza"/>
                         <viewControllerLayoutGuide type="bottom" id="0La-py-kfM"/>
@@ -858,7 +858,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hy1-tv-co2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3680.8000000000002" y="-51.724137931034484"/>
+            <point key="canvasLocation" x="3817" y="-51"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4uP-JS-6vM">
@@ -958,7 +958,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0V0-XT-JG2">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="UserCell" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HVu-Ye-sah">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HVu-Ye-sah">
                                                 <rect key="frame" x="0.0" y="40" width="375" height="960"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -979,7 +979,7 @@
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="UVl-BC-dPP">
                                                         <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                                         <autoresizingMask key="autoresizingMask"/>
-                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UVl-BC-dPP" id="pvT-l0-Y2Z">
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="cell" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UVl-BC-dPP" id="pvT-l0-Y2Z">
                                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </tableViewCellContentView>
