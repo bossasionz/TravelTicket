@@ -10,7 +10,6 @@ import UIKit
 import FirebaseFirestore
 import Firebase
 
-
 class detailViewController: UIViewController {
     
     
@@ -22,13 +21,16 @@ class detailViewController: UIViewController {
     @IBOutlet weak var lbPlace5: UILabel!
     @IBOutlet weak var lbPrice: UILabel!
     var trip = ""
+    let db = Firestore.firestore()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear(_ animated: Bool) {
+        
 
         // Do any additional setup after loading the view.\
         
-        let docRef = Firestore.firestore().collection("TripPromotion").document(trip)
+        let docRef = Firestore.firestore().collection("trip_promotion").document(trip)
+        
+ 
         
         docRef.getDocument{ (document, err) in
             if let document = document {
@@ -51,21 +53,34 @@ class detailViewController: UIViewController {
             else{
                 print("Document doesn't exist")
             }
-            
         }
-        
         print(trip)
     }
+    @IBAction func buyTicketController(_ sender: Any) {
+
+//        let x = Int.random(in: 1001..<99999999)
+        
+
+        var myString = String.self
+       
+//        let insert = [
+//            
+//            
+//            
+//            ]
+        db.collection("user_buy").document("BeastNaHor").setData(["QR1" : myString ,
+                                                                  "QR2" : myString ,
+                                                                  "QR3" : myString ,
+                                                                  "QR4" : myString ,
+                                                                  "QR5" : myString ,
+                                                                  "place1" : lbPlace1.text ,
+                                                                  "place2" : lbPlace2.text ,
+                                                                  "place3" : lbPlace3.text ,
+                                                                  "place4" : lbPlace4.text ,
+                                                                  "place5" : lbPlace5.text], merge: true)
+
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
-
 }
+

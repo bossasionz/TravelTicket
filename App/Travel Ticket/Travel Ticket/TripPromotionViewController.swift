@@ -2,7 +2,7 @@
 //  TableViewController.swift
 //  Travel Ticket
 //
-//  Created by SiRiPonG! on 5/10/18.
+//  Created by boss! on 5/10/18.
 //  Copyright © 2018 student. All rights reserved.
 //
 

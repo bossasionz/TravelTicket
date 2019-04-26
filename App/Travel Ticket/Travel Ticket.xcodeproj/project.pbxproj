@@ -17,10 +17,14 @@
 		3FCFD2EB214656AD0085DF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCFD2E9214656AD0085DF78 /* LaunchScreen.storyboard */; };
 		3FF8D9D9216B4B33002E9275 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8D9D8216B4B33002E9275 /* detailViewController.swift */; };
 		C42D981A2163459B00AD6047 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D98192163459B00AD6047 /* SignUpViewController.swift */; };
+		CC52D4C32190AA0600958801 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC52D4C22190AA0600958801 /* ListViewController.swift */; };
 		CCF0B6AB2167EF8E0068A50F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6AA2167EF8E0068A50F /* TestViewController.swift */; };
 		CCF0B6AF2167F1130068A50F /* TripPromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6AE2167F1130068A50F /* TripPromotionViewController.swift */; };
 		CCF0B6B121688BA60068A50F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6B021688BA60068A50F /* HomeViewController.swift */; };
 		CCF0B6B7216B583F0068A50F /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6B6216B583F0068A50F /* detailViewController.swift */; };
+		D3858D1A226B28E6007F4851 /* refillMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3858D19226B28E6007F4851 /* refillMoneyViewController.swift */; };
+		D3858D1C226B2B8D007F4851 /* myWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3858D1B226B2B8D007F4851 /* myWalletViewController.swift */; };
+		D3858D1E226B2BC9007F4851 /* qrCodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3858D1D226B2BC9007F4851 /* qrCodeListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +41,14 @@
 		3FF8D9D8216B4B33002E9275 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		AD2C59BAA98A7247823A1863 /* Pods-Travel Ticket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.release.xcconfig"; sourceTree = "<group>"; };
 		C42D98192163459B00AD6047 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CC52D4C22190AA0600958801 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		CCF0B6AA2167EF8E0068A50F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		CCF0B6AE2167F1130068A50F /* TripPromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPromotionViewController.swift; sourceTree = "<group>"; };
 		CCF0B6B021688BA60068A50F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CCF0B6B6216B583F0068A50F /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		D3858D19226B28E6007F4851 /* refillMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refillMoneyViewController.swift; sourceTree = "<group>"; };
+		D3858D1B226B2B8D007F4851 /* myWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWalletViewController.swift; sourceTree = "<group>"; };
+		D3858D1D226B2BC9007F4851 /* qrCodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrCodeListViewController.swift; sourceTree = "<group>"; };
 		ED2B52DE5D48208BAABB603A /* Pods-Travel Ticket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel Ticket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travel Ticket/Pods-Travel Ticket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +97,10 @@
 				3FCFD2DF214656AD0085DF78 /* ViewController.swift */,
 				C42D98192163459B00AD6047 /* SignUpViewController.swift */,
 				3FCFD2E1214656AD0085DF78 /* Main.storyboard */,
+				D3858D1D226B2BC9007F4851 /* qrCodeListViewController.swift */,
+				D3858D1B226B2B8D007F4851 /* myWalletViewController.swift */,
+				D3858D19226B28E6007F4851 /* refillMoneyViewController.swift */,
+				CC52D4C22190AA0600958801 /* ListViewController.swift */,
 				CCF0B6B021688BA60068A50F /* HomeViewController.swift */,
 				CCF0B6AE2167F1130068A50F /* TripPromotionViewController.swift */,
 				3FF8D9D8216B4B33002E9275 /* detailViewController.swift */,
@@ -146,6 +158,7 @@
 				TargetAttributes = {
 					3FCFD2D9214656AD0085DF78 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZF45M4K379;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,6 +168,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,14 +260,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3858D1E226B2BC9007F4851 /* qrCodeListViewController.swift in Sources */,
 				CCF0B6AB2167EF8E0068A50F /* TestViewController.swift in Sources */,
 				CCF0B6AF2167F1130068A50F /* TripPromotionViewController.swift in Sources */,
 				CCF0B6B7216B583F0068A50F /* detailViewController.swift in Sources */,
 				C42D981A2163459B00AD6047 /* SignUpViewController.swift in Sources */,
 				3FCFD2E6214656AD0085DF78 /* Travel_Ticket.xcdatamodeld in Sources */,
 				3FCFD2E0214656AD0085DF78 /* ViewController.swift in Sources */,
+				D3858D1A226B28E6007F4851 /* refillMoneyViewController.swift in Sources */,
 				CCF0B6B121688BA60068A50F /* HomeViewController.swift in Sources */,
 				3FCFD2DE214656AD0085DF78 /* AppDelegate.swift in Sources */,
+				D3858D1C226B2B8D007F4851 /* myWalletViewController.swift in Sources */,
+				CC52D4C32190AA0600958801 /* ListViewController.swift in Sources */,
 				3FF8D9D9216B4B33002E9275 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,13 +400,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZF45M4K379;
 				INFOPLIST_FILE = "Travel Ticket/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tonyboss.Travel-Ticket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -399,13 +417,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZF45M4K379;
 				INFOPLIST_FILE = "Travel Ticket/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tonyboss.Travel-Ticket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
